@@ -17,7 +17,7 @@ const searchClient = algoliasearch(
 const App = () => {
   return (
     <div className="app">
-      <h1>React InstantSearch e-commerce demo</h1>
+      <h1>React InstantSearch eCommerce demo</h1>
       <InstantSearch indexName="algolia_demo" searchClient={searchClient}>
         <SearchBox />
         <Hits hitComponent={Hit} className="hit-container" />
