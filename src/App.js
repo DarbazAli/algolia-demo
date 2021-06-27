@@ -11,7 +11,7 @@ import Hit from "./Hit"
 
 const searchClient = algoliasearch(
   "J68PQFE9RK",
-  "546fae9bc9bf78fd691c2172e6112d26"
+  "35741763b23582022ffcdc590dc26c2f"
 )
 
 const App = () => {
